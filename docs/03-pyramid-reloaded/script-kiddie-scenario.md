@@ -114,4 +114,4 @@ The indicators that used to imply low skill — using known tools, predictable p
 
 ---
 
-**Continue:** [Why Legacy Defense Patterns Are Failing →](../04-defense-failure/why-legacy-fails)
+**Continue:** [Why Legacy Defense Patterns Are Failing →](../defense-failure/why-legacy-fails)

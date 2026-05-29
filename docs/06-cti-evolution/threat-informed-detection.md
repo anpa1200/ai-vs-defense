@@ -186,4 +186,4 @@ In the old world, these cadences could be longer because attacker tool sets chan
 
 ---
 
-**Continue:** [SOC Analyst Playbook — Immediate Actions →](../07-soc-playbook/immediate-actions)
+**Continue:** [SOC Analyst Playbook — Immediate Actions →](../soc-playbook/immediate-actions)

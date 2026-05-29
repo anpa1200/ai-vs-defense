@@ -127,4 +127,4 @@ The required skill shifts from **implementation expertise** to **goal specificat
 
 ---
 
-**Continue:** [The Pyramid of Pain, Post-AI →](../03-pyramid-reloaded/level-by-level)
+**Continue:** [The Pyramid of Pain, Post-AI →](../pyramid-reloaded/level-by-level)

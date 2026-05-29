@@ -159,4 +159,4 @@ The robust detections share a common characteristic: they depend on *behavioral 
 
 ---
 
-**Continue:** [The New Defense Paradigm: Behavior, Anomaly, and Statistics →](../05-new-paradigm/behavioral-detection)
+**Continue:** [The New Defense Paradigm: Behavior, Anomaly, and Statistics →](../new-paradigm/behavioral-detection)

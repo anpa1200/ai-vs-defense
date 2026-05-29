@@ -164,4 +164,4 @@ These six give you meaningful detection coverage against the critical phases of 
 
 ---
 
-**Continue:** [What Your CTI Team Must Now Do →](../06-cti-evolution/beyond-ioc-feeds)
+**Continue:** [What Your CTI Team Must Now Do →](../cti-evolution/beyond-ioc-feeds)

@@ -105,4 +105,4 @@ The next sections explain why — with specific, hands-on evidence.
 
 ---
 
-**Continue:** [AI and the Collapse of the Skill Floor →](../02-offensive-ai/skill-floor-collapse)
+**Continue:** [AI and the Collapse of the Skill Floor →](../offensive-ai/skill-floor-collapse)

@@ -32,18 +32,18 @@ This guide walks through:
 
 | Section | Core Question |
 |---|---|
-| [The Old World](./01-context/skill-barrier) | What was the capability tier system, and why did it work? |
-| [AI & the Skill Floor](./02-offensive-ai/skill-floor-collapse) | What specifically did AI change about offensive capability? |
-| [From My Research](./02-offensive-ai/from-my-research) | Concrete examples from hands-on published research |
-| [Pyramid of Pain, Post-AI](./03-pyramid-reloaded/level-by-level) | Level-by-level: what does it cost to change each indicator now? |
-| [Script Kiddie + AI Scenario](./03-pyramid-reloaded/script-kiddie-scenario) | A realistic 3-day attack that would have required a senior professional in 2020 |
-| [Why Legacy Defense Fails](./04-defense-failure/why-legacy-fails) | IOC treadmill, signature blindness, threshold exploitation |
-| [The New Paradigm](./05-new-paradigm/behavioral-detection) | Behavioral baselines, statistical detection, anomaly-first thinking |
-| [Detection Stack Assessment](./05-new-paradigm/detection-stack) | Which detections survive AI-assisted offense — and which don't |
-| [CTI Must Evolve](./06-cti-evolution/beyond-ioc-feeds) | What CTI looks like when IOC feeds are no longer sufficient |
-| [Threat-Informed Detection](./06-cti-evolution/threat-informed-detection) | The CTI→SOC pipeline that actually closes detection gaps |
-| [Immediate Actions](./07-soc-playbook/immediate-actions) | What you can do this month |
-| [Medium-Term Roadmap](./07-soc-playbook/medium-term) | What your detection program needs to look like in 90 days |
+| [The Old World](./context/skill-barrier) | What was the capability tier system, and why did it work? |
+| [AI & the Skill Floor](./offensive-ai/skill-floor-collapse) | What specifically did AI change about offensive capability? |
+| [From My Research](./offensive-ai/from-my-research) | Concrete examples from hands-on published research |
+| [Pyramid of Pain, Post-AI](./pyramid-reloaded/level-by-level) | Level-by-level: what does it cost to change each indicator now? |
+| [Script Kiddie + AI Scenario](./pyramid-reloaded/script-kiddie-scenario) | A realistic 3-day attack that would have required a senior professional in 2020 |
+| [Why Legacy Defense Fails](./defense-failure/why-legacy-fails) | IOC treadmill, signature blindness, threshold exploitation |
+| [The New Paradigm](./new-paradigm/behavioral-detection) | Behavioral baselines, statistical detection, anomaly-first thinking |
+| [Detection Stack Assessment](./new-paradigm/detection-stack) | Which detections survive AI-assisted offense — and which don't |
+| [CTI Must Evolve](./cti-evolution/beyond-ioc-feeds) | What CTI looks like when IOC feeds are no longer sufficient |
+| [Threat-Informed Detection](./cti-evolution/threat-informed-detection) | The CTI→SOC pipeline that actually closes detection gaps |
+| [Immediate Actions](./soc-playbook/immediate-actions) | What you can do this month |
+| [Medium-Term Roadmap](./soc-playbook/medium-term) | What your detection program needs to look like in 90 days |
 
 ## About This Research
 
@@ -67,4 +67,4 @@ This guide is grounded in hands-on research documented across a series of publis
 
 ---
 
-[Start Reading →](./01-context/skill-barrier)
+[Start Reading →](./context/skill-barrier)
