@@ -1,4 +1,7 @@
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { Redirect } from '@docusaurus/router';
+
 export default function Home() {
-  return <Redirect to="/ai-vs-defense/docs/intro" />;
+  const { siteConfig } = useDocusaurusContext();
+  return <Redirect to={`${siteConfig.baseUrl}docs/intro`} />;
 }
