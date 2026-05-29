@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_vs_defense=self.webpackChunkai_vs_defense||[]).push([["823"],{7176(e,s,n){n.r(s),n.d(s,{default:()=>u});var r=n(4848),t=n(898),a=n(6347);function u(){let{siteConfig:e}=(0,t.A)();return(0,r.jsx)(a.rd,{to:`${e.baseUrl}docs/intro`})}}}]);
