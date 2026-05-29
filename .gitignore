@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Production
+build/
+.docusaurus/
+
+# Generated files
+.cache-loader/
+
+# Misc
+.DS_Store
+.env
+*.local
