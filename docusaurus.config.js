@@ -13,6 +13,26 @@ const config = {
   baseUrl: '/ai-vs-defense/',
   organizationName: 'anpa1200',
   projectName: 'ai-vs-defense',
+
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        async: 'true',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-TMTG21RVHM',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TMTG21RVHM');
+      `,
+    },
+  ],
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
@@ -87,7 +107,7 @@ const config = {
           },
           {
             href: 'https://anpa1200.github.io/',
-            label: 'All Projects',
+            label: 'Main Page',
             position: 'right',
             className: 'navbar-portfolio-btn',
           },
@@ -126,7 +146,7 @@ const config = {
               { label: 'Medium (@1200km)', href: 'https://medium.com/@1200km' },
               { label: 'LinkedIn', href: 'https://www.linkedin.com/in/andrey-pautov/' },
               { label: 'GitHub', href: 'https://github.com/anpa1200' },
-              { label: 'All Projects', href: 'https://anpa1200.github.io/' },
+              { label: 'Main Page', href: 'https://anpa1200.github.io/' },
             ],
           },
         ],
