@@ -1,12 +1,12 @@
 ---
-title: "Script Kiddies Don't Exist Anymore"
+title: "Guide Overview"
 sidebar_label: Introduction
 sidebar_position: 1
 slug: /intro
 description: "AI demolished the skill barrier that was an implicit cybersecurity defense for 20 years. This guide explains what changed and what SOC teams must do differently."
 ---
 
-# Script Kiddies Don't Exist Anymore
+# Guide Overview
 
 ## How AI Collapsed the Skill Floor and Why Legacy Defense Is Losing the War
 

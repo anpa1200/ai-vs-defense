@@ -70,10 +70,10 @@ Invoke-AtomicTest T1003.003 -TestNumbers 1
 ```
 
 **For each test: document the result in your ATT&CK Navigator layer:**
-- ✓ Detected (alert fired, correct content, within acceptable time)
-- △ Partial (alert fired but noisy or late)
-- ✗ Missed (alert did not fire — investigate root cause)
-- ◌ Data gap (telemetry not collected — fix data source first)
+- PASS: Detected (alert fired, correct content, within acceptable time)
+- PARTIAL: Alert fired but noisy or late
+- FAIL: Missed (alert did not fire — investigate root cause)
+- DATA GAP: Telemetry not collected — fix data source first
 
 **The validated Navigator layer is your real coverage map** — not the theoretical one with all your rules mapped to ATT&CK IDs.
 

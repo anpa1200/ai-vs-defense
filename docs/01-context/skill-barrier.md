@@ -9,6 +9,8 @@ description: "The capability tier system, the Pyramid of Pain, and why defensive
 
 To understand what AI changed, you first have to understand what the old system actually looked like — and why it provided an implicit layer of defense that most security programs never explicitly relied on, but absolutely depended on.
 
+![The Old World: Why the Skill Barrier Existed — capability tier breakdown from nation-state actors to script kiddies](/img/old-world-skill-barrier.png)
+
 ---
 
 ## The Capability Tier System
@@ -61,21 +63,7 @@ Your defensive controls assumed this distribution. They were built to handle the
 
 David Bianco's [Pyramid of Pain](https://medium.com/@1200km/threat-hunting-with-the-pyramid-of-pain-8add3cedb380) (2013) formalized the asymmetry between attacker and defender at each indicator tier:
 
-```
-         ╔══════════════════╗
-         ║      TTPs        ║  ← Hardest for attacker to change
-         ╠══════════════════╣
-         ║     Tools        ║
-         ╠══════════════════╣
-         ║ Network Artifacts║
-         ╠══════════════════╣
-         ║  Host Artifacts  ║
-         ╠══════════════════╣
-         ║  Domain Names    ║
-         ╠══════════════════╣
-         ║   Hash Values    ║  ← Trivial for attacker to change
-         ╚══════════════════╝
-```
+![The Pyramid of Pain: Built for This World — why Bianco's model worked in the pre-AI capability landscape](/img/pyramid-of-pain-pre-ai.png)
 
 The model's elegant logic: **force the attacker to operate higher up the pyramid**. Stop blocking hashes (trivially changed with a recompile) and start detecting behavioral patterns (expensive to change because it requires re-engineering the attack).
 

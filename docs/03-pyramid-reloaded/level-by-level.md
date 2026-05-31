@@ -15,23 +15,9 @@ But **"harder" is not absolute — it is relative to the attacker's resources an
 
 ## The Updated Pyramid
 
-```
-         ╔══════════════════════════════════════════╗
-         ║          TTPs                            ║  Days to weeks (↓ from months)
-         ╠══════════════════════════════════════════╣
-         ║          Tools                           ║  Days (↓ from months/years)
-         ╠══════════════════════════════════════════╣
-         ║       Network Artifacts                  ║  Hours (↓ from days)
-         ╠══════════════════════════════════════════╣
-         ║        Host Artifacts                    ║  Hours (↓ from days)
-         ╠══════════════════════════════════════════╣
-         ║        Domain Names                      ║  Minutes (unchanged)
-         ╠══════════════════════════════════════════╣
-         ║         Hash Values                      ║  Minutes (unchanged, trivially automated)
-         ╚══════════════════════════════════════════╝
-```
+![The Pyramid of Pain, Post-AI — AI has lowered the cost of change at every meaningful level](/img/pyramid-of-pain-post-ai.png)
 
-The arrow at each level indicates the direction costs moved with AI assistance. The bottom two levels are unchanged — they were already trivial. The top four levels have all shifted significantly.
+The bottom two levels are unchanged — they were already trivial. The top four levels have all shifted significantly downward in cost.
 
 ---
 
@@ -112,7 +98,7 @@ This is a practical, answerable prompt. The attacker does not need to understand
 
 ---
 
-## Level 5 — Tools ⚠️ The Critical Shift
+## Level 5 — Tools  The Critical Shift
 
 This is where the fundamental change happens.
 
