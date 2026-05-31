@@ -137,3 +137,18 @@ tr:nth-child(even) {
   border-top: none;
   padding-top: 0;
 }
+
+/* ── Cyber background (pages without special hero/cover) ── */
+[data-theme='dark'] html { background-color: #050c1a; }
+[data-theme='dark'] body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/ai-vs-defense/img/bg-cyber.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.35;
+  z-index: -1;
+  pointer-events: none;
+}
