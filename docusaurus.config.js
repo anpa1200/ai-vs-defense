@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI vs Defense',
+  title: 'Old Defense vs New-Age Attacks',
   tagline: 'How AI collapsed the skill floor — and what SOC teams must do about it',
   favicon: 'img/favicon.svg',
 
@@ -31,6 +31,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/anpa1200/ai-vs-defense/tree/main/',
+          routeBasePath: '/',
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
@@ -49,10 +50,10 @@ const config = {
         textColor: '#f97316',
         isCloseable: true,
       },
-      image: 'img/social-card.png',
+      image: 'img/cover-castle.png',
       colorMode: { respectPrefersColorScheme: true },
       navbar: {
-        title: 'AI vs Defense',
+        title: 'Old Defense vs New-Age Attacks',
         logo: { alt: '1200km', src: 'img/logo.svg' },
         items: [
           {
@@ -62,12 +63,25 @@ const config = {
             label: 'Read the Guide',
           },
           {
+            label: 'Projects',
+            position: 'right',
+            items: [
+              { label: 'CTI Analyst Field Manual', href: 'https://anpa1200.github.io/cti-analyst-field-manual/' },
+              { label: 'CTI as a Code', href: 'https://anpa1200.github.io/CTI_as_a_Code/' },
+              { label: 'Operation Desert Hydra', href: 'https://anpa1200.github.io/operation-desert-hydra/' },
+              { label: 'Customer-Driven AI CTI', href: 'https://anpa1200.github.io/customer-driven-ai-cti-project/' },
+              { label: 'Israel Threat Actors CTI', href: 'https://anpa1200.github.io/israel-government-threat-actors-cti/' },
+              { label: 'AI vs Defense', href: 'https://anpa1200.github.io/ai-vs-defense/' },
+              { label: 'HexStrike AI', href: 'https://github.com/0x4m4/hexstrike-ai' },
+            ],
+          },
+          {
             href: 'https://medium.com/@1200km',
             label: 'Medium',
             position: 'right',
           },
           {
-            href: 'https://github.com/anpa1200',
+            href: 'https://github.com/anpa1200/ai-vs-defense',
             label: 'GitHub',
             position: 'right',
           },
@@ -85,30 +99,32 @@ const config = {
           {
             title: 'This Guide',
             items: [
-              { label: 'Introduction', to: '/docs/intro' },
-              { label: 'The Old World', to: '/docs/context/skill-barrier' },
-              { label: 'AI & the Skill Floor', to: '/docs/offensive-ai/skill-floor-collapse' },
-              { label: 'Pyramid of Pain Post-AI', to: '/docs/pyramid-reloaded/level-by-level' },
-              { label: 'Why Legacy Defense Fails', to: '/docs/defense-failure/why-legacy-fails' },
-              { label: 'The New Paradigm', to: '/docs/new-paradigm/behavioral-detection' },
-              { label: 'CTI Must Evolve', to: '/docs/cti-evolution/beyond-ioc-feeds' },
-              { label: 'SOC Playbook', to: '/docs/soc-playbook/immediate-actions' },
+              { label: 'Introduction', to: '/intro' },
+              { label: 'The Old World', to: '/context/skill-barrier' },
+              { label: 'AI & the Skill Floor', to: '/offensive-ai/skill-floor-collapse' },
+              { label: 'Pyramid of Pain Post-AI', to: '/pyramid-reloaded/level-by-level' },
+              { label: 'Why Legacy Defense Fails', to: '/defense-failure/why-legacy-fails' },
+              { label: 'The New Paradigm', to: '/new-paradigm/behavioral-detection' },
+              { label: 'CTI Must Evolve', to: '/cti-evolution/beyond-ioc-feeds' },
+              { label: 'SOC Playbook', to: '/soc-playbook/immediate-actions' },
             ],
           },
           {
-            title: 'Related Research',
+            title: 'Ecosystem',
             items: [
-              { label: 'HexStrike-AI Guide', href: 'https://anpa1200.github.io/Hexstrike-AI-guide/' },
-              { label: 'CTI Analyst Field Manual', href: 'https://github.com/anpa1200/cti-analyst-field-manual' },
-              { label: 'Threat Hunting Hypotheses', href: 'https://github.com/anpa1200/threat-hunting-hypotheses' },
-              { label: 'CTI Research Repo', href: 'https://github.com/anpa1200/CTI' },
+              { label: 'CTI Analyst Field Manual', href: 'https://anpa1200.github.io/cti-analyst-field-manual/' },
+              { label: 'CTI as a Code', href: 'https://anpa1200.github.io/CTI_as_a_Code/' },
+              { label: 'Operation Desert Hydra', href: 'https://anpa1200.github.io/operation-desert-hydra/' },
+              { label: 'Customer-Driven AI CTI', href: 'https://anpa1200.github.io/customer-driven-ai-cti-project/' },
+              { label: 'Israel Threat Actors CTI', href: 'https://anpa1200.github.io/israel-government-threat-actors-cti/' },
+              { label: 'HexStrike AI', href: 'https://github.com/0x4m4/hexstrike-ai' },
             ],
           },
           {
             title: 'Author',
             items: [
               { label: 'Medium (@1200km)', href: 'https://medium.com/@1200km' },
-              { label: 'LinkedIn', href: 'https://linkedin.com/in/andrey-pautov' },
+              { label: 'LinkedIn', href: 'https://www.linkedin.com/in/andrey-pautov/' },
               { label: 'GitHub', href: 'https://github.com/anpa1200' },
               { label: 'All Projects', href: 'https://anpa1200.github.io/' },
             ],
