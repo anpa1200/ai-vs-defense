@@ -197,7 +197,7 @@ This is not a perfect state. It is a continuously maintained state — which is 
 
 | Topic | Resource |
 |---|---|
-| AI-assisted pentesting | [HexStrike-AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) |
+| AI-assisted pentesting | [HexStrike-AI Guide](https://1200km.com/Hexstrike-AI-guide/) |
 | ATT&CK methodology | [ATT&CK as a Working Tool](https://medium.com/@1200km/attck-as-a-working-tool-theory-and-hands-on-practical-usage) |
 | CTI analytical workflow | [CTI Analyst Field Manual](https://github.com/anpa1200/cti-analyst-field-manual) |
 | Hunt hypotheses library | [Threat Hunting Hypotheses](https://github.com/anpa1200/threat-hunting-hypotheses) |
@@ -214,4 +214,4 @@ This is not a perfect state. It is a continuously maintained state — which is 
 ---
 
 *Andrey Pautov — CTI Analyst and Security Researcher*  
-*[Medium](https://medium.com/@1200km) · [GitHub](https://github.com/anpa1200) · [LinkedIn](https://linkedin.com/in/andrey-pautov) · [All Projects](https://anpa1200.github.io/)*
+*[Medium](https://medium.com/@1200km) · [GitHub](https://github.com/anpa1200) · [LinkedIn](https://linkedin.com/in/andrey-pautov) · [All Projects](https://1200km.com/)*

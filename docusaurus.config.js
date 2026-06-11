@@ -9,7 +9,7 @@ const config = {
 
   future: { v4: true },
 
-  url: 'https://anpa1200.github.io',
+  url: 'https://1200km.com',
   baseUrl: '/ai-vs-defense/',
   organizationName: 'anpa1200',
   projectName: 'ai-vs-defense',
@@ -86,14 +86,14 @@ const config = {
             label: 'Projects',
             position: 'right',
             items: [
-              { label: 'CTI Analyst Field Manual', href: 'https://anpa1200.github.io/cti-analyst-field-manual/' },
-              { label: 'CTI as a Code', href: 'https://anpa1200.github.io/CTI_as_a_Code/' },
-              { label: 'Operation Desert Hydra', href: 'https://anpa1200.github.io/operation-desert-hydra/' },
-              { label: 'Customer-Driven AI CTI', href: 'https://anpa1200.github.io/customer-driven-ai-cti-project/' },
-              { label: 'Israel Threat Actors CTI', href: 'https://anpa1200.github.io/israel-government-threat-actors-cti/' },
-              { label: 'AI vs Defense', href: 'https://anpa1200.github.io/ai-vs-defense/' },
+              { label: 'CTI Analyst Field Manual', href: 'https://1200km.com/cti-analyst-field-manual/' },
+              { label: 'CTI as a Code', href: 'https://1200km.com/CTI_as_a_Code/' },
+              { label: 'Operation Desert Hydra', href: 'https://1200km.com/operation-desert-hydra/' },
+              { label: 'Customer-Driven AI CTI', href: 'https://1200km.com/customer-driven-ai-cti-project/' },
+              { label: 'Israel Threat Actors CTI', href: 'https://1200km.com/israel-government-threat-actors-cti/' },
+              { label: 'AI vs Defense', href: 'https://1200km.com/ai-vs-defense/' },
               { label: 'HexStrike AI', href: 'https://github.com/0x4m4/hexstrike-ai' },
-              { label: 'ThreatMapper Docs', href: 'https://anpa1200.github.io/threatmapper-docs/' },
+              { label: 'ThreatMapper Docs', href: 'https://1200km.com/threatmapper-docs/' },
             ],
           },
           {
@@ -107,7 +107,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://anpa1200.github.io/',
+            href: 'https://1200km.com/',
             label: 'Main Page',
             position: 'right',
             className: 'navbar-portfolio-btn',
@@ -133,13 +133,13 @@ const config = {
           {
             title: 'Ecosystem',
             items: [
-              { label: 'CTI Analyst Field Manual', href: 'https://anpa1200.github.io/cti-analyst-field-manual/' },
-              { label: 'CTI as a Code', href: 'https://anpa1200.github.io/CTI_as_a_Code/' },
-              { label: 'Operation Desert Hydra', href: 'https://anpa1200.github.io/operation-desert-hydra/' },
-              { label: 'Customer-Driven AI CTI', href: 'https://anpa1200.github.io/customer-driven-ai-cti-project/' },
-              { label: 'Israel Threat Actors CTI', href: 'https://anpa1200.github.io/israel-government-threat-actors-cti/' },
+              { label: 'CTI Analyst Field Manual', href: 'https://1200km.com/cti-analyst-field-manual/' },
+              { label: 'CTI as a Code', href: 'https://1200km.com/CTI_as_a_Code/' },
+              { label: 'Operation Desert Hydra', href: 'https://1200km.com/operation-desert-hydra/' },
+              { label: 'Customer-Driven AI CTI', href: 'https://1200km.com/customer-driven-ai-cti-project/' },
+              { label: 'Israel Threat Actors CTI', href: 'https://1200km.com/israel-government-threat-actors-cti/' },
               { label: 'HexStrike AI', href: 'https://github.com/0x4m4/hexstrike-ai' },
-              { label: 'ThreatMapper Docs', href: 'https://anpa1200.github.io/threatmapper-docs/' },
+              { label: 'ThreatMapper Docs', href: 'https://1200km.com/threatmapper-docs/' },
             ],
           },
           {
@@ -148,7 +148,7 @@ const config = {
               { label: 'Medium (@1200km)', href: 'https://medium.com/@1200km' },
               { label: 'LinkedIn', href: 'https://www.linkedin.com/in/andrey-pautov/' },
               { label: 'GitHub', href: 'https://github.com/anpa1200' },
-              { label: 'Main Page', href: 'https://anpa1200.github.io/' },
+              { label: 'Main Page', href: 'https://1200km.com/' },
             ],
           },
         ],

@@ -61,7 +61,7 @@ This guide is grounded in hands-on research documented across a series of publis
 
 **Related projects:**
 
-- [HexStrike-AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) — complete documentation for the AI pentesting framework used in research
+- [HexStrike-AI Guide](https://1200km.com/Hexstrike-AI-guide/) — complete documentation for the AI pentesting framework used in research
 - [CTI Analyst Field Manual](https://github.com/anpa1200/cti-analyst-field-manual) — structured ATT&CK methodology for CTI teams
 - [Threat Hunting Hypotheses](https://github.com/anpa1200/threat-hunting-hypotheses) — ATT&CK-driven hunt hypotheses library
 
