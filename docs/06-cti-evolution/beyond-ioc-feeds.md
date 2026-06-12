@@ -68,7 +68,7 @@ Not generic detection advice — specific detection requirements mapped to your 
 
 Which of this actor's documented techniques do you currently have no validated detection for? This is the input to your detection engineering backlog.
 
-For automated first-pass ATT&CK extraction from threat reports — with evidence and confidence scores ready for analyst review — see [ThreatMapper](https://1200km.com/threatmapper-docs/): a self-hosted platform that runs Claude / GPT-4o / Gemini locally, extracts technique candidates with evidence snippets, and computes Jaccard similarity against all 174+ ATT&CK groups to surface attribution leads.
+For analyst-reviewed first-pass ATT&CK extraction from threat reports, see the [ThreatMapper AI CTI workbench](https://1200km.com/threatmapper/). Its self-hosted Docker mode uses operator-configured LLM providers, extracts evidence-backed technique candidates, and computes Jaccard TTP overlap against the currently ingested group profiles to surface investigation leads.
 
 ---
 
