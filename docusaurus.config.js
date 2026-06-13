@@ -59,7 +59,7 @@ const config = {
           content: 'AI offensive security, AI defense, SOC modernization, Pyramid of Pain, skill floor collapse, behavioral detection, AI-assisted attacks, LLM security, SIEM evolution, threat-informed defense, detection engineering 2025',
         },
       ],
-      colorMode: { respectPrefersColorScheme: true },
+      colorMode: { defaultMode: 'dark', disableSwitch: false, respectPrefersColorScheme: false },
       navbar: {
         title: 'Old Defense vs New-Age Attacks',
         logo: { alt: '1200km', src: 'img/logo.svg' },
