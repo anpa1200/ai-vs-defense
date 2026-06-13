@@ -14,25 +14,6 @@ const config = {
   organizationName: 'anpa1200',
   projectName: 'ai-vs-defense',
 
-  headTags: [
-    {
-      tagName: 'script',
-      attributes: {
-        async: 'true',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-TMTG21RVHM',
-      },
-    },
-    {
-      tagName: 'script',
-      attributes: {},
-      innerHTML: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-TMTG21RVHM');
-      `,
-    },
-  ],
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
@@ -54,6 +35,7 @@ const config = {
           routeBasePath: '/',
         },
         blog: false,
+        gtag: {trackingID: 'G-TMTG21RVHM', anonymizeIP: true},
         theme: { customCss: './src/css/custom.css' },
       }),
     ],
