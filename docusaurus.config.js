@@ -71,6 +71,12 @@ const config = {
         isCloseable: true,
       },
       image: 'img/cover-castle.png',
+      metadata: [
+        {
+          name: 'keywords',
+          content: 'AI offensive security, AI defense, SOC modernization, Pyramid of Pain, skill floor collapse, behavioral detection, AI-assisted attacks, LLM security, SIEM evolution, threat-informed defense, detection engineering 2025',
+        },
+      ],
       colorMode: { respectPrefersColorScheme: true },
       navbar: {
         title: 'Old Defense vs New-Age Attacks',
