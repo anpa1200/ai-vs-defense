@@ -68,7 +68,7 @@ Not generic detection advice — specific detection requirements mapped to your 
 
 Which of this actor's documented techniques do you currently have no validated detection for? This is the input to your detection engineering backlog.
 
-For analyst-reviewed first-pass ATT&CK extraction from threat reports, see the [ThreatMapper AI CTI workbench](https://1200km.com/threatmapper/). Its self-hosted Docker mode uses operator-configured LLM providers, extracts evidence-backed technique candidates, and computes Jaccard TTP overlap against the currently ingested group profiles to surface investigation leads.
+For analyst-reviewed first-pass ATT&CK extraction from threat reports, see the [AdversaryGraph AI CTI workbench](https://1200km.com/adversarygraph/). Its self-hosted Docker mode uses operator-configured LLM providers, extracts evidence-backed technique candidates, and computes Jaccard TTP overlap against the currently ingested group profiles to surface investigation leads.
 
 ---
 
