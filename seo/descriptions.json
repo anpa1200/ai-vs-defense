@@ -1,0 +1,19 @@
+{
+  "subsiteName": "AI vs. Defense",
+  "descriptions": {
+    "/ai-vs-defense/": "Learn how AI lowers offensive skill barriers and how SOC and CTI teams can adapt with behavioral baselines, resilient detections, and a practical roadmap.",
+    "/ai-vs-defense/context/skill-barrier": "Understand how attacker capability tiers created an implicit defensive layer, why security programs depended on it, and what changed when AI reduced that gap.",
+    "/ai-vs-defense/cti-evolution/beyond-ioc-feeds": "See why indicator-feed processing loses value as AI accelerates adversary change, then learn how intelligence teams can produce durable defensive guidance.",
+    "/ai-vs-defense/cti-evolution/threat-informed-detection": "Build a CTI-to-SOC pipeline that converts adversary behavior into prioritized, validated coverage and keeps engineering work aligned with current threats.",
+    "/ai-vs-defense/defense-failure/why-legacy-fails": "Identify how IOC matching, known-tool signatures, and fixed thresholds weaken against AI-assisted attackers, including assumptions each control still requires.",
+    "/ai-vs-defense/intro": "Understand how AI changed the cost of offensive capability, which defensive assumptions became unreliable, and what SOC and intelligence teams should do next.",
+    "/ai-vs-defense/new-paradigm/behavioral-detection": "Learn how environment-specific baselines and statistical signals detect unknown activity when signatures fail, with guidance for more resilient defense.",
+    "/ai-vs-defense/new-paradigm/detection-stack": "Compare detection approaches by their resilience to novel tools and AI-researched evasion, then prioritize layers grounded in environment-specific evidence.",
+    "/ai-vs-defense/offensive-ai/from-my-research": "Review hands-on experiments covering custom malware, prompt-driven testing, and hardware attack research, with clear limits on what each result proves.",
+    "/ai-vs-defense/offensive-ai/skill-floor-collapse": "Examine how AI bridges the gap between knowing an attack objective and implementing it, changing attacker capability tiers and long-held defensive assumptions.",
+    "/ai-vs-defense/pyramid-reloaded/level-by-level": "Reassess each Pyramid of Pain indicator by its cost to an AI-assisted attacker, from disposable hashes to durable behavior and operational patterns.",
+    "/ai-vs-defense/pyramid-reloaded/script-kiddie-scenario": "Follow a realistic three-day AI-assisted attack scenario and compare the expertise, time, and operational barriers that the same campaign required in 2020.",
+    "/ai-vs-defense/soc-playbook/immediate-actions": "Start improving detection this month with an honest rule audit, validation testing, baseline establishment, and adversarial review of current controls.",
+    "/ai-vs-defense/soc-playbook/medium-term": "Plan a 90-day detection upgrade covering audit closure, AI-assisted purple teaming, freshness reviews, actor profiles, and anomaly-focused SIEM investment."
+  }
+}
