@@ -1,8 +1,12 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
+import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
+
+const PAGE_TITLE = 'Old Defense vs New-Age Attacks';
+const PAGE_DESCRIPTION = 'Learn how AI lowers offensive skill barriers and how SOC and CTI teams can adapt with behavioral baselines, resilient detections, and a practical roadmap.';
 
 const FEATURES = [
   {
@@ -37,14 +41,28 @@ const FEATURES = [
   },
 ];
 
+const breadcrumbStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {'@type': 'ListItem', position: 1, name: '1200km', item: 'https://1200km.com/'},
+    {'@type': 'ListItem', position: 2, name: 'AI vs. Defense', item: 'https://1200km.com/ai-vs-defense/'},
+  ],
+};
+
 export default function Home() {
   const coverImg = useBaseUrl('/img/cover-castle.png');
 
   return (
     <Layout
-      title="Old Defense vs New-Age Attacks"
-      description="AI demolished the skill barrier that was an implicit cybersecurity defense for 20 years. A practitioner's guide for SOC analysts and CTI teams."
+      title={PAGE_TITLE}
+      description={PAGE_DESCRIPTION}
     >
+      <Head>
+        <meta name="twitter:title" content={`${PAGE_TITLE} | 1200km`} />
+        <meta name="twitter:description" content={PAGE_DESCRIPTION} />
+        <script type="application/ld+json">{JSON.stringify(breadcrumbStructuredData)}</script>
+      </Head>
       {/* ── Hero ── */}
       <div className={styles.hero}>
         <img

@@ -1,9 +1,24 @@
 // @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
+import {execFileSync} from 'node:child_process';
+
+function gitLastModifiedDate(relativePath) {
+  try {
+    const value = execFileSync('git', ['log', '-1', '--format=%cs', '--', relativePath], {
+      cwd: process.cwd(),
+      encoding: 'utf8',
+    }).trim();
+    return /^\d{4}-\d{2}-\d{2}$/.test(value) ? value : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+const homepageLastmod = gitLastModifiedDate('src/pages/index.js');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Old Defense vs New-Age Attacks',
+  title: '1200km',
   tagline: 'How AI collapsed the skill floor — and what SOC teams must do about it',
   favicon: 'img/favicon.svg',
 
@@ -25,6 +40,8 @@ const config = {
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
 
+  plugins: ['./seo-metadata-plugin.cjs'],
+
   presets: [
     [
       'classic',
@@ -34,8 +51,18 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/anpa1200/ai-vs-defense/tree/main/',
           routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         blog: false,
+        sitemap: {
+          lastmod: 'date',
+          createSitemapItems: async ({defaultCreateSitemapItems, ...params}) => {
+            const items = await defaultCreateSitemapItems(params);
+            return items.map((item) => item.url === 'https://1200km.com/ai-vs-defense/' && homepageLastmod
+              ? {...item, lastmod: item.lastmod || homepageLastmod}
+              : item);
+          },
+        },
         gtag: {trackingID: 'G-TMTG21RVHM', anonymizeIP: true},
         theme: { customCss: './src/css/custom.css' },
       }),
@@ -55,6 +82,10 @@ const config = {
       },
       image: 'img/cover-castle.png',
       metadata: [
+        {
+          property: 'og:site_name',
+          content: '1200km — Andrey Pautov Security Research',
+        },
         {
           name: 'keywords',
           content: 'AI offensive security, AI defense, SOC modernization, Pyramid of Pain, skill floor collapse, behavioral detection, AI-assisted attacks, LLM security, SIEM evolution, threat-informed defense, detection engineering 2025',
@@ -81,7 +112,7 @@ const config = {
               { label: 'Customer-Driven AI CTI', href: 'https://1200km.com/customer-driven-ai-cti-project/' },
               { label: 'Israel Threat Actors CTI', href: 'https://1200km.com/israel-government-threat-actors-cti/' },
               { label: 'AI vs Defense', href: 'https://1200km.com/ai-vs-defense/' },
-              { label: 'HexStrike AI', href: 'https://github.com/0x4m4/hexstrike-ai' },
+              { label: 'HexStrike AI (upstream project)', href: 'https://github.com/0x4m4/hexstrike-ai' },
               { label: 'AdversaryGraph Docs', href: 'https://1200km.com/adversarygraph-docs/' },
             ],
           },
@@ -127,7 +158,7 @@ const config = {
               { label: 'Operation Desert Hydra', href: 'https://1200km.com/operation-desert-hydra/' },
               { label: 'Customer-Driven AI CTI', href: 'https://1200km.com/customer-driven-ai-cti-project/' },
               { label: 'Israel Threat Actors CTI', href: 'https://1200km.com/israel-government-threat-actors-cti/' },
-              { label: 'HexStrike AI', href: 'https://github.com/0x4m4/hexstrike-ai' },
+              { label: 'HexStrike AI (upstream project)', href: 'https://github.com/0x4m4/hexstrike-ai' },
               { label: 'AdversaryGraph Docs', href: 'https://1200km.com/adversarygraph-docs/' },
             ],
           },
